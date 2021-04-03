@@ -1,0 +1,164 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body.modal-open{
+	padding: 0 !important;
+}
+.nav-style {
+	background-color: white!important;
+
+}
+.nav-style ul a{
+	color: #a29bfe!important;
+	text-decoration: none;
+	font-weight: bold;
+}
+.navbar-nav li a:before{
+	content: "";
+	position: absolute;
+	top:100%;
+	bottom: 50%;
+	width: 0%;
+	height: 4%;
+	background: rgb(184, 0, 135);
+	transition: all 0.3s linear;
+}
+.active ul a{
+color:rgb(184, 0, 135)!important;
+}
+.navbar-nav li a{
+	position: relative;
+}
+
+.navbar-nav li a:hover:before{
+	width: 70%;
+}
+/*--------------------img--------------*/
+
+.head-img img{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.head-text{
+	padding:10vmin 2vmin;
+	padding-bottom:5vmin;
+}
+
+
+.ppp{
+	height:90vh;
+}
+h6{
+	padding:1vmin;
+	letter-spacing: 4px;
+	color:black;
+}
+ .main-heading h1{
+	font-size: 3.5em!important;
+}
+.head-text h1{
+	font-size:9.5vmin;
+	font-weight: bold;
+	padding:0.3em 0em;
+}
+.head-text p{
+	color:black;
+
+}
+.text-button{
+	border-radius:5px;
+	font-weight:bold;
+	color:white;
+	background-color: rgb(184, 0, 135);
+
+
+}
+/*----------------social media--------------------*/
+.social-media{
+	background-color: rgb(184, 0, 135);
+	color: white;
+	font-weight: bolder;
+}
+.text-button:hover{
+	background:linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+
+/*------------------------------number------------------*/
+.number{
+	background-color:rgb(184, 0, 135);
+	color: white;
+	font-weight: bold;
+}
+
+/*-------------------footer-nav----------------*/
+.footer-nav li a{
+	color:rgb(184, 0, 135)!important;
+	font-weight: bold;
+	cursor: pointer!important;
+
+}
+/*-----------------------footer button----------------*/
+.subcribe-button{
+	background-color:rgb(184, 0, 135)!important;
+ 
+}
+ . h6:before{
+	content: "";
+	position: absolute;
+	top:100%;
+	bottom: 50%;
+	width: 0%;
+	height: 4%;
+	background: rgb(184, 0, 135);
+	transition: all 0.3s linear;
+	cursor: pointer;
+}
+. h6{
+	position: relative;
+}
+/*----------------------side-------------------*/
+#mybtn {
+    bottom: 30px;
+    right: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(184, 0, 135);
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50%;
+    float: right;
+    position: fixed;
+}
+/*---------------------media quary------------*/
+@media only screen and (max-device-width : 480px) {
+.alert strong{
+	padding: 0!important;
+}
+.head-text{
+	padding:10vmin 5vmin;
+	padding-bottom:10vmin;
+}
+.header h2{
+	font-size: 1.5em!important;
+}
+
+.col-md-6.col-sm-12.head-img.mt-5{
+	margin-top:0!important;
+}
+}
+
+
+
